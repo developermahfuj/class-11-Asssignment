@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    Font-family: sans-serif
+}
+.main{
+    width: 1040px;
+    margin: auto;
+}
+.main .header{
+    background-color: #34495e;
+}
+.main .header ul{
+    text-align: center;
+    padding: 60px 0px;
+}
+.main .header ul li{
+    display: inline-block;
+    padding: 20px;
+ 
+}
+
+.main .header ul li a{
+    background-color: #cc701e;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #374741;
+}
+.main .header ul li a:hover {
+    color: blue;
+}
+.main .header ul li span{
+    background-color: #fff;
+    width: 5px;
+    height: 27px;
+    display: block;
+    margin: auto;
+   
+}
+.main .header ul li p {
+    font-size: 30px;
+    color: #cc701e ;
+}
+.service{
+    background-color: #e1e1e1;
+    position: relative;
+    height: 450px;
+    width: 100%;
+    
+}
+.service .service_h{
+    text-align: center;
+    padding-top: 25px;
+    color: #3c5e3c;
+    border-bottom: 5px dashed #3c5e3c;
+    background-color: #e1e1e1;
+}
+
+.service .service_content .content {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: #eee7e7;
+    box-shadow: 6px 7px 20px 6px #878585;
+    transition: .4s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #8f5d5d;
+}
+.service .service_content .content:hover{
+    background-color: #2992de;
+}
+.service .service_content .content i{
+    font-size: 50px;
+    padding-bottom: 8px;
+    color: #3c5e3c;
+}
+.service .service_content .content h2{
+    padding-bottom: 10px;
+}
+.service .service_content .content_one{
+    top: 5%;
+    left: 10%;
+    position: absolute;
+}
+
+.service .service_content .content_two {
+    top: 5%;
+    left: 38%;
+    position: absolute;
+}
+.service .service_content .content_three {
+    top: 5%;
+    left: 66%;
+    position: absolute;
+}
+.form{
+    width: 100%;
+    height: 440px;
+    background-color: #9b59b6;
+    position: relative;
+}
+.form  .circles .circle{
+    height: 100px;
+    width: 100px;
+    background-color: #34495e;
+    border: 4px dotted #cc701e;
+    border-radius: 50%;
+}
+
+.form  .circles .circle1{
+    position: absolute;
+    top: 8%;
+    left: 34%;
+}
+.form  .circles .circle2{
+    position: absolute;
+    top: 8%;
+    left: 56%;
+}
+.form  .circles .circle3{
+    position: absolute;
+    top: 25%;
+    left: 21%;
+}
+.form  .circles .circle4 {
+    position: absolute;
+    top: 25%;
+    left: 69%;
+}
+.form .img .imgg {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.form .img .imgg img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.form .img .circle{
+    border: 5px solid #cc701e;
+}
+.form .img .imgg h6 {
+    font-size: 15px;
+    text-align: center;
+    color: #592c02;
+    margin-top: 55px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+.hover{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #3c5e3c7e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s ease-in-out;
+
+}
+.form .img .imgg:hover .hover{
+    opacity: 1;
+    visibility: visible;
+}
+.form .img .imgg:hover .hover h6{
+    opacity: 1;
+    visibility: visible;
+}
+.form .input_area {
+    padding-top: 21%;
+    padding-left: 2%;
+    text-align: center;
+}
+.form .input_area input {
+    padding: 13px 20px;
+    border-radius: 30px;
+    border: 2px solid #cc701e;
+    outline:invert;
+    outline-color:#3c5e3c;
+}
+.form .input_area button{
+    background: #9b59b6;
+    padding: 9px 30px;
+    border: 2px solid #3c5e3c;
+    border-radius: 43px;
+    transition: .3s ease-in-out;
+    
+}
+.form .input_area button:hover{
+    background-color: #fff;
+    color: #9b59b6;
+}
+.form .input_area button:hover a{
+    color: #9b59b6;
+}
+.form .input_area button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .3s ease-in-out;
+
+}
+.footer{
+    background-color: #34495e;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+}
